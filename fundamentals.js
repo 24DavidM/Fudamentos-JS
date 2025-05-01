@@ -233,3 +233,7 @@ products.length === 3 ? console.log("50% Descuento") : console.log("No hay descu
 
 const newItemsSlice = products.slice(0,2)
 console.log(newItemsSlice)
+
+// const prices = [1000,2000,3000,4000]
+const subTotal = prices.reduce((total, precio)=>total+precio,0)
+console.log(subTotal)
